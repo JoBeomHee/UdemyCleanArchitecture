@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C040F9B3-9DC9-46A7-B6B3-CB2577276039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2187ED9E-7EE7-4B03-B727-16C3800E2DC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B468DBCA-D4DC-4207-AB01-A017FBDBD2A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B17B7B0D-ABB9-4819-9334-16B353E8C147}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FCD291F3-3558-4310-913D-50A6EB6D37ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{034C7008-E022-4DFA-B587-FC25030012EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{E09F4903-6320-4CEC-A85D-84F5D2B142FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E09F4903-6320-4CEC-A85D-84F5D2B142FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09F4903-6320-4CEC-A85D-84F5D2B142FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09F4903-6320-4CEC-A85D-84F5D2B142FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09F4903-6320-4CEC-A85D-84F5D2B142FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B468DBCA-D4DC-4207-AB01-A017FBDBD2A1} = {C040F9B3-9DC9-46A7-B6B3-CB2577276039}
+		{B17B7B0D-ABB9-4819-9334-16B353E8C147} = {C040F9B3-9DC9-46A7-B6B3-CB2577276039}
+		{FCD291F3-3558-4310-913D-50A6EB6D37ED} = {C040F9B3-9DC9-46A7-B6B3-CB2577276039}
+		{034C7008-E022-4DFA-B587-FC25030012EC} = {C040F9B3-9DC9-46A7-B6B3-CB2577276039}
+		{E09F4903-6320-4CEC-A85D-84F5D2B142FC} = {B17B7B0D-ABB9-4819-9334-16B353E8C147}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35531465-2B25-47F4-A144-C52CF682008D}
+	EndGlobalSection
+EndGlobal
